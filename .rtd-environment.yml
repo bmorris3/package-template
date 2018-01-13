@@ -1,0 +1,10 @@
+name: packagename
+
+channels:
+    - astropy
+
+dependencies:
+    - numpy
+    - pip:
+        - sphinx-automodapi
+        - numpydoc
